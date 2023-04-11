@@ -39,6 +39,7 @@ function App() {
   }
 
   return (
+    <div className="root">
     <div className="page">
       <Header />
       <Main onEditProfile={handleEditProfileClick}
@@ -74,6 +75,7 @@ function App() {
       <PopupWithForm title={'Вы уверены?'} isOpen={isEditDeletePopupOpen} onClose={closeAllPopups} textButton="Да"></PopupWithForm>
 
       <ImagePopup card={selectedCard} onClose={closeAllPopups} />
+    </div>
     </div>
   )
 }
