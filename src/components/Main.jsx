@@ -39,7 +39,7 @@ function Main({ onEditAvatar, onCardClick, onEditProfile, onAddPlace }) {
         <button type="button" className="profile__add-button" aria-label="добавить" onClick={onAddPlace}></button>
       </section>
       <section className="elements">{cards.map((card) => (
-        <Card card={card} key={card._id} onCardClick={onCardClick}/>
+        <Card card={card} key={card._id} onCardClick={onCardClick} />
       ))}
       </section>
     </main>
