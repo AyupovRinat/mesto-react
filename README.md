@@ -4,3 +4,5 @@
 
 Для создания проекта использовались следующие технологии: HTML, CSS, Flex, адаптивная верстка, Java Script, API, React.
 
+Ссылка на проект  https://ayupovrinat.github.io/mesto-react/
+
